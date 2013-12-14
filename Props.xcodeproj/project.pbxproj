@@ -217,6 +217,7 @@
 		EDC4B695185C2F4900F71C55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Props/Props-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -226,6 +227,7 @@
 		EDC4B696185C2F4900F71C55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Props/Props-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
